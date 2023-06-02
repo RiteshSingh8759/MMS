@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.web.bind.annotation.CrossOrigin;
 import com.kloc.test.entities.BillItems;
 import com.kloc.test.entities.BillModule;
 import com.kloc.test.entities.CustomerModule;
@@ -29,6 +29,7 @@ import com.kloc.test.service.OrderDetailsService;
 import com.kloc.test.service.VendorService;
 
 @RestController()
+@CrossOrigin("*")
 @RequestMapping("/api")
 public class MMSController {
 	private BillItemService billItemService;
