@@ -1,0 +1,39 @@
+1. api/saveVendor--------------->saving the vendor
+2. api/getAllVendor------------->get all the vendor persent in vendor module
+3. api/getVendorById/{id}------->get the vendor by id for eg.-api/getVendorById/101
+4. api/getVendorByName/{name}--->get the vendor by name for eg.-api/getVendorByName/ritesh
+5. api/updateVendor/{id}--------> update vendor module by id
+6. api/deleteVendorById/{id}---->delete vendor by id
+7. api/saveDrug/{vname}--------->save the drug if the customer is available then
+8. api/getAllDrug--------------->get all the data from drug module
+9. api/getAllDrugByVname-------->get All the drug by vendor name.
+10. api/getDrugById/{id}------------->get the specific drug details by id
+11.api/updateDrugById/{id}---------->update the specific drug module by their id
+12.api/deleteDrugById/{id}---------->delete the specific drug by their id
+13.api/postCustomer------------->post the customer details
+14.api/getAllCustomer----------->get all the customer details
+15.api/getCustomerById/{id}->get the customer by their specific id
+16.api/updateCustomer/{id}------>update the specific customer by their id
+17.api/postBillItems/{BillNo}--->post the bill items list
+18.api/getAllBillItems---------->get all the bill items that persent in the bill items module
+19.api/updateBillItemsById/{id}->update bill items by their corresponding id
+20.api/deleteBillItemsById/{id}->delete the bill items by their id
+21.api/postBillModule----------->post the bill module if the corresponding bill no is persent in bill item list.
+22.api/getAllBillModule--------->get all the bill  persent in bill module
+23.api/getBillModuleById/{id}--->get the specific bill module by their id
+24.api/updateBillModuleById/{id}->update the specific bill module by their id
+25.api/postOrder/{vnam}---------->post order to corresponding vname
+26.api/getAllOrderDetails-------->get all OrderDetails 
+27.api/getOrderDetails/{id}------>get orderDetails By Id
+28.api/getAllODByVname/{vname}--->get All OrderDetails By Vname
+29.api/getAllODByStatus/{Status}->get all the order details by their status
+30.api/updateOD/{id}------------->update the OrderDetails .
+31.api/updateODByStatus/{id}/{Status}-->update the order Details by their status on the basis of order received,completed,placed.
+32.api/deleteODById/{id}--------->delete the corresponding order details by their id
+33.api/deleteODByVname/{Vname}--->delete the OrderDetails By their VendorName.
+34.api/postInventory/{id}-------->post the inventory by order id.
+35.api/getAllInventory----------->get All the Inventory.
+36.api/getInventoryByIid/{id}---->get all inventory by their inventory id.
+37.api/getAllInventoryByOrderId/{id}-->get all the inventory by order id.
+38.api/updateInventoryById/{id}---->update inventory by inventory id.
+39.api/deleteInventoryById/{id}--->delete the inventory by inventory id.
